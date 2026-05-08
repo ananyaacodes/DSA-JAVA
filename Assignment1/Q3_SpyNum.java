@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class Q3_SpyNum {
     public static void main(String[] args) {
@@ -25,3 +25,4 @@ public class Q3_SpyNum {
         sc.close();
     }
 }
+
