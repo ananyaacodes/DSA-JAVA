@@ -22,5 +22,7 @@ public class Q5_SumOfDigits {
         int num = sc.nextInt();
         int result = sumOfDigits(num);
         System.out.println("Sum of digits: " + num + " until the number is a single digit is " + result);
+
+        sc.close();
     }
 }

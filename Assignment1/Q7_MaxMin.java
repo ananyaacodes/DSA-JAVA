@@ -45,6 +45,8 @@ public class Q7_MaxMin {
         System.out.println("Count of Minimum element is: " + minCount);
         System.out.println("First occurrence of Maximum element is at position: " + firstMaxPos);
         System.out.println("Last occurrence of Minimum element is at position: " + lastMinPos);
+
+        sc.close();
     }
 
 }

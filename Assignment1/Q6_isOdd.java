@@ -11,6 +11,8 @@ public class Q6_isOdd {
         int num = sc.nextInt();
 
         System.err.println(num+ " is Odd: " +isOdd(num));
+
+        sc.close();
     }
     
 }

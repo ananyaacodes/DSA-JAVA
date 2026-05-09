@@ -25,6 +25,8 @@ public class Q8_SumMatrix {
         }
 
         System.out.println("Sum of the elements of the 2D Array is: " + sum);
+
+        sc.close();
     }
 
 }
