@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Q10_Columnsum {
 
     public static double sumColumn(double[][]m, int columnIndex){
