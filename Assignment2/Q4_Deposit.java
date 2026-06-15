@@ -50,5 +50,7 @@ public class Q4_Deposit {
         Deposit deposit = new Deposit(principal, time, rate);
         deposit.calc_amt();
         deposit.display();
+
+		sc.close();
     }
 }

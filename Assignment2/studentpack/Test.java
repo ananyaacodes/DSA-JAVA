@@ -17,6 +17,8 @@ public class Test extends Student {
 
         System.out.print("Enter Mark 2: ");
         mark2 = sc.nextInt();
+
+        sc.close();
     }
 
     @Override

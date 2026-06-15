@@ -40,5 +40,7 @@ public class Q2_ComplexNo {
         c3 = c3.add(c1, c2);
         System.out.print("Sum of complex numbers: ");
         c3.display();
+
+        sc.close();
     }
 }

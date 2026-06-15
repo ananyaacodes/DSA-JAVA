@@ -14,11 +14,15 @@ public class Student {
 
         System.out.print("Enter Roll: ");
         roll = sc.nextInt();
+
+        sc.close();
     }
 
     public void showDetails() {
         System.out.println("Name: " + name);
         System.out.println("Roll: " + roll);
+
+        
     }
 }
 
