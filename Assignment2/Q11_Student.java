@@ -17,6 +17,8 @@ class Student {
 
             System.out.print("Enter DSA Mark: ");
             DSA_Mark = sc.nextInt();
+
+            sc.close();
     }
     void showdata() {
         System.out.println("Roll: " + roll);
@@ -46,5 +48,7 @@ public class Q11_Student {
 
         System.out.println("\nStudent with Highest DSA Mark:");
         s[maxIndex].showdata();
+
+        sc.close();
     }
 }
