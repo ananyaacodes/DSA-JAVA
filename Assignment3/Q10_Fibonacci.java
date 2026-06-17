@@ -24,5 +24,7 @@ public class Q10_Fibonacci {
         int n = sc.nextInt();
 
         System.out.println("The " + n + "th Fibonacci number is: " + fibonacci(n));
+
+        sc.close();
     }
 }
