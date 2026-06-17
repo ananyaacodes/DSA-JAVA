@@ -21,5 +21,7 @@ public class Q7_Factorial {
         int num = sc.nextInt();
 
         System.out.println("Factorial of " + num + " = " + factorial(num));
+
+        sc.close();
     }
 }

@@ -24,11 +24,14 @@ class Student {
         mark = sc.nextInt();
 
         if (mark > 100) {
+            sc.close();
             throw new MarksOutOfBoundException("ERROR: Marks cannot be greater than 100.");
         }
-
+        
         System.out.println("Student Name: " + name);
         System.out.println("Marks: " + mark);
+
+        sc.close();
     }
 }
 

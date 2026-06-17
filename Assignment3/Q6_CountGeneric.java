@@ -39,5 +39,7 @@ public class Q6_CountGeneric {
         int result = count(arr, item);
 
         System.out.println("Occurrence of " + item + " = " + result);
+
+        sc.close();
     }
 }

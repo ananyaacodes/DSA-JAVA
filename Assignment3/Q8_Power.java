@@ -24,6 +24,8 @@ public class Q8_Power {
         int n = sc.nextInt();
 
         System.out.println(x + " raised to the power " + n + " = " + power(x, n));
+
+        sc.close();
     }
 }
     

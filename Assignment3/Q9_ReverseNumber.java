@@ -23,5 +23,7 @@ public class Q9_ReverseNumber {
 
         System.out.print("Reversed Number: ");
         reverse(num);
+
+        sc.close();
     }
 }
