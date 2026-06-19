@@ -3,12 +3,12 @@ package Assignment3;
 import java.util.Scanner;
 
 public class Q11_GCD {
-    public static int Q11_GCD(int m, int n){
+    public static int GCD(int m, int n){
         if (n==0){
             return m;
         }
         else{
-            return Q11_GCD(n, m % n);
+            return GCD(n, m % n);
         }
     }
     public static void main(String[] args){
@@ -20,7 +20,7 @@ public class Q11_GCD {
         System.out.print("Enter second number: ");
         int b = sc.nextInt();
 
-        System.out.println("GCD of " + a + " and " + b + " = " + Q11_GCD(a, b));
+        System.out.println("GCD of " + a + " and " + b + " = " + GCD(a, b));
 
         sc.close();
     }
