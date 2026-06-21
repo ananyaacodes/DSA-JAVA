@@ -2,8 +2,6 @@ package Assignment4;
 
 import java.util.Scanner;
 
-import java.util.Scanner;
-
 class Node {
     int regd_no;
     float mark;
